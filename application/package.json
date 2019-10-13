@@ -2,6 +2,7 @@
   "name": "application",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "antd": "^3.23.6",
     "firebase": "^7.2.0",
