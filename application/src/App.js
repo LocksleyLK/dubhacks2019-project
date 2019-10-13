@@ -21,14 +21,14 @@ const providers = {
 const { Header, Content, Footer } = Layout;
 
 let places = [
-  { title: "House in Ballard", path: "./images/Ballard.jpg" },
-  { title: "House in Magnolia", path: "./images/Magnolia.jpg" },
-  { path: "./images/North.jpg" },
-  { path: "./images/OurBishopLakeUnion.jpg" },
-  { path: "./images/OurLadyEast.jpg" },
-  { path: "./images/Southwest.jpg" },
-  { path: "./images/StGeorgeRainierValley.jpg" },
-  { path: "./images/Wallingford.png" }
+  { title: "Ballard, Washington", description: "", path: "./images/Ballard.jpg" },
+  { title: "Magnolia, Washington", path: "./images/Magnolia.jpg" },
+  { title: "North Seattle, Washington", path: "./images/North.jpg" },
+  { title: "Our Bishop Church, Lake Union, Washington", path: "./images/OurBishopLakeUnion.jpg" },
+  { title: "Our Lady Church, East Seattle, Washington", path: "./images/OurLadyEast.jpg" },
+  { title: "Southwest, Seattle", path: "./images/Southwest.jpg" },
+  { title: "St George Church, Rainier Valley, Washington", path: "./images/StGeorgeRainierValley.jpg" },
+  { title: "Wallingford, Washington", path: "./images/Wallingford.png" }
 ];
 
 class App extends React.Component {
@@ -69,7 +69,9 @@ class App extends React.Component {
           </Header>
           <Content style={{ padding: "0 50px", marginTop: 64 }}>
             {/* <header className="App-header"> */}
-            <img src={logo} className="App-logo" alt="logo" />
+            <div style={{ textAlign: "center" }}>
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
             {/* </header> */}
             <div style={{ background: "#fff", padding: 24, minHeight: 380 }}>
               {user ? <Gallery data={places} /> : <strong>Please sign in.</strong>}
