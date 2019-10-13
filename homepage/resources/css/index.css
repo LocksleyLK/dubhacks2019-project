@@ -1,0 +1,30 @@
+.navbar{                          /* a static navbar */
+    background-color: light gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+
+.banner{
+    background-color: aliceblue;
+    color: black;
+    margin-top: 75px;
+    text-align: center;
+    padding: 20px 0;
+}
+#size-image{
+    height:600px;
+    width: 1000px;
+    filter: drop-shadow(1px, 1px, 1px, black);
+}
+#safespace{
+    color: aliceblue;
+    font-size: 75px;
+}
+.bold{
+    font-weight: 900;
+}
