@@ -1,4 +1,4 @@
-alert('Welcome');
+// alert('Welcome');
 
 
 // When the user clicks anywhere outside of the modal, close it
